@@ -33,8 +33,7 @@ const Marketplace = () => {
   ];
 
   // TODO: Replace with your wallet address to receive payments
-  const MERCHANT_ADDRESS = "0x742d35Cc6634C0532925a3b844Bc454e4438f44e";
-  
+  const MERCHANT_ADDRESS = "0x6DF27e27dcc7210642CFe88318611fcFbFafFfaF";
   const vouchers = [
     { id: 1, title: "Amazon Gift Card", cost: 500, token: "GRN", value: 1000, icon: Gift, merchantAddress: MERCHANT_ADDRESS },
     { id: 2, title: "Flipkart Voucher", cost: 750, token: "GRN", value: 1500, icon: Store, merchantAddress: MERCHANT_ADDRESS },
