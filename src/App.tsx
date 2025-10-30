@@ -15,7 +15,7 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 // Create Web3Modal with environment variable
-const projectId = import.meta.env.VITE_WALLETCONNECT_PROJECT_ID || '818370e3002a3170bbcc14a9dd9bdf3f';
+const projectId = import.meta.env.VITE_WALLETCONNECT_PROJECT_ID || 'd74c207c01281aa5cf0d3a4cf1e54247';
 
 createWeb3Modal({
   wagmiConfig: config,
