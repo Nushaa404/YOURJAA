@@ -4,7 +4,7 @@ import { walletConnect, injected } from 'wagmi/connectors'
 
 // TODO: Replace with your own WalletConnect Project ID
 // Get one at: https://cloud.walletconnect.com/
-const projectId = import.meta.env.VITE_WALLETCONNECT_PROJECT_ID || '818370e3002a3170bbcc14a9dd9bdf3f'
+const projectId = import.meta.env.VITE_WALLETCONNECT_PROJECT_ID || 'd74c207c01281aa5cf0d3a4cf1e54247'
 
 export const config = createConfig({
   chains: [sepolia, mainnet, polygon], // Multiple chains support
